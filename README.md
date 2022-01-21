@@ -1,6 +1,6 @@
 # vim-hugo-helper
 
-A small Vim plugin to help me with writing posts with [Hugo](https://gohugo.io).
+A small Vim plugin to help me with writing posts with [Hugo](https://gohugo.io). Then I fork it and change some script, where I use it on my small project.
 
 # Helpers
 
@@ -24,7 +24,7 @@ The following helpers are available:
 
 ## Link
 
-`:HugoHelperLink` helps with adding links to a document. Visually select the word(s) you want to be a link, enter `:HugoHelperLink https://gohugo.io` and it will turn the selected word(s) to `[selected words](https://gohugo.io)`.
+`:HugoHelperLink` helps with adding links to a document. Visually select the word(s) you want to be a, enter `:HugoHelperLink https://gohugo.io` and it will turn the selected word(s) to `[selected words](https://gohugo.io)`.
 
 ![link helper in action](http://i.imgur.com/mVPqgXs.gif)
 
