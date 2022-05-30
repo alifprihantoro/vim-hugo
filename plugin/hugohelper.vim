@@ -26,6 +26,7 @@ endif
 
 
 
+command! -nargs=0 Hugotoslug call Hugotitletoslug()
 command! -nargs=0 HugoHelperSpellCheck call hugohelper#SpellCheck()
 command! -nargs=0 HugoHelperDraft call hugohelper#Draft()
 command! -nargs=0 HugoHelperUndraft call hugohelper#Undraft()

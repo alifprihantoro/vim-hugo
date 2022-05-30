@@ -1,0 +1,64 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/data/data/com.termux/files/home/.config/plugin/vim-hugo/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+,b	plugin/command.vim	/^vmap ,b di**<Esc>pa**$/;"	m
+,c	plugin/command.vim	/^vmap ,c di`<Esc>pa`$/;"	m
+,i	plugin/command.vim	/^vmap ,i di*<Esc>pa*$/;"	m
+,u	plugin/command.vim	/^vmap ,u di_<Esc>pa_$/;"	m
+Date is now	README.md	/^## Date is now$/;"	s	chapter:Helpers
+Draft	README.md	/^## Draft$/;"	s	chapter:Helpers
+Helpers	README.md	/^# Helpers$/;"	c
+Highlight	README.md	/^## Highlight$/;"	s	chapter:Helpers
+HugoHelperDateIsNow	plugin/hugohelper.vim	/^command! -nargs=0 HugoHelperDateIsNow call hugohelper#DateIsNow()$/;"	c
+HugoHelperDraft	plugin/hugohelper.vim	/^command! -nargs=0 HugoHelperDraft call hugohelper#Draft()$/;"	c
+HugoHelperFrontMatterReorder	plugin/hugohelper.vim	/^function! HugoHelperFrontMatterReorder()$/;"	f
+HugoHelperHighlight	plugin/hugohelper.vim	/^command! -nargs=1 HugoHelperHighlight call hugohelper#Highlight(<f-args>)$/;"	c
+HugoHelperLastmodIsNow	plugin/hugohelper.vim	/^command! -nargs=0 HugoHelperLastmodIsNow call hugohelper#LastmodIsNow()$/;"	c
+HugoHelperLink	plugin/hugohelper.vim	/^command! -range -nargs=1 HugoHelperLink call hugohelper#Link(<f-args>)$/;"	c
+HugoHelperSpellCheck	plugin/hugohelper.vim	/^command! -nargs=0 HugoHelperSpellCheck call hugohelper#SpellCheck()$/;"	c
+HugoHelperTitleCase	plugin/hugohelper.vim	/^command! -nargs=0 HugoHelperTitleCase call hugohelper#TitleCase()$/;"	c
+HugoHelperTitleToSlug	plugin/hugohelper.vim	/^command! -nargs=0 HugoHelperTitleToSlug call hugohelper#TitleToSlug()$/;"	c
+HugoHelperUndraft	plugin/hugohelper.vim	/^command! -nargs=0 HugoHelperUndraft call hugohelper#Undraft()$/;"	c
+Hugotitletoslug	plugin/title_slug.vim	/^function! Hugotitletoslug()$/;"	f
+Hugotoslug	plugin/hugohelper.vim	/^command! -nargs=0 Hugotoslug call Hugotitletoslug()$/;"	c
+Installation	README.md	/^# Installation$/;"	c
+Link	README.md	/^## Link$/;"	s	chapter:Helpers
+Spell check	README.md	/^## Spell check$/;"	s	chapter:Helpers
+Title to slug	README.md	/^## Title to slug$/;"	s	chapter:Helpers
+Undraft	README.md	/^## Undraft$/;"	s	chapter:Helpers
+[Vundle](https://github.com/VundleVim/Vundle.vim)	README.md	/^## [Vundle](https:\/\/github.com\/VundleVim\/Vundle.vim)$/;"	s	chapter:Installation
+[vim-plug](https://github.com/junegunn/vim-plug)	README.md	/^## [vim-plug](https:\/\/github.com\/junegunn\/vim-plug)$/;"	s	chapter:Installation
+g:hugohelper_content_dir	plugin/hugohelper.vim	/^    let g:hugohelper_content_dir = 'content'$/;"	v
+g:hugohelper_plugin_loaded	plugin/hugohelper.vim	/^let g:hugohelper_plugin_loaded = 1$/;"	v
+g:hugohelper_plugin_path	plugin/hugohelper.vim	/^let g:hugohelper_plugin_path = expand('<sfile>:p:h')$/;"	v
+g:hugohelper_site_config	plugin/hugohelper.vim	/^    let g:hugohelper_site_config = [ 'config.toml', 'config.yaml', 'config.json' ]$/;"	v
+g:hugohelper_spell_check_lang	plugin/hugohelper.vim	/^    let g:hugohelper_spell_check_lang = 'en_us'$/;"	v
+g:hugohelper_update_lastmod_on_write	plugin/hugohelper.vim	/^    let g:hugohelper_update_lastmod_on_write = 0$/;"	v
+hugohelper#DateIsNow	autoload/hugohelper.vim	/^function! hugohelper#DateIsNow()$/;"	f
+hugohelper#Draft	autoload/hugohelper.vim	/^function! hugohelper#Draft()$/;"	f
+hugohelper#HasFrontMatter	autoload/hugohelper.vim	/^function! hugohelper#HasFrontMatter()$/;"	f
+hugohelper#Highlight	autoload/hugohelper.vim	/^function! hugohelper#Highlight(language)$/;"	f
+hugohelper#LastmodIsNow	autoload/hugohelper.vim	/^function! hugohelper#LastmodIsNow()$/;"	f
+hugohelper#Link	autoload/hugohelper.vim	/^function! hugohelper#Link(link)$/;"	f
+hugohelper#SpellCheck	autoload/hugohelper.vim	/^function! hugohelper#SpellCheck()$/;"	f
+hugohelper#TitleCase	autoload/hugohelper.vim	/^function! hugohelper#TitleCase()$/;"	f
+hugohelper#TitleToSlug	autoload/hugohelper.vim	/^function! hugohelper#TitleToSlug()$/;"	f
+hugohelper#Undraft	autoload/hugohelper.vim	/^function! hugohelper#Undraft()$/;"	f
+s:HasHugoConfigFile	plugin/hugohelper.vim	/^function! s:HasHugoConfigFile(dir)$/;"	f
+s:IsFileInHugoContentDirectory	plugin/hugohelper.vim	/^function! s:IsFileInHugoContentDirectory(filepath)$/;"	f
+s:ShouldUpdateLastMod	plugin/hugohelper.vim	/^function! s:ShouldUpdateLastMod()$/;"	f
+s:UpdateLastMod	plugin/hugohelper.vim	/^function! s:UpdateLastMod()$/;"	f
+s:front_matter_format	autoload/hugohelper.vim	/^function! s:front_matter_format()$/;"	f
+s:get_visual_selection	autoload/hugohelper.vim	/^function! s:get_visual_selection()$/;"	f
+s:hugo_now	autoload/hugohelper.vim	/^function! s:hugo_now()$/;"	f
+s:set_key	autoload/hugohelper.vim	/^function! s:set_key(key, value)$/;"	f
+vim	plugin/hugohelper.vim	/^augroup vim-hugo-helper$/;"	a
+vim-hugo-helper	README.md	/^# vim-hugo-helper$/;"	c

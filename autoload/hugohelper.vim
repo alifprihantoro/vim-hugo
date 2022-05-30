@@ -96,4 +96,3 @@ function! s:hugo_now()
     return l:time[:-3] . ':' . l:time[-2:]
 endfun
 
-" vim: expandtab shiftwidth=4
