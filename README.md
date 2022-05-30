@@ -45,7 +45,7 @@ By default it is set to `en_us`.
 ## Title to slug
 
 `:HugoHelperTitleToSlug` turns the title of the Hugo post to the slug. It assumes the following two lines are present in the frontmatter:
-
+`:Hugotoslug` fixing old version
 ```
 +++
 // frontmatter
