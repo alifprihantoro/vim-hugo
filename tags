@@ -27,6 +27,7 @@ HugoHelperSpellCheck	plugin/hugohelper.vim	/^command! -nargs=0 HugoHelperSpellCh
 HugoHelperTitleCase	plugin/hugohelper.vim	/^command! -nargs=0 HugoHelperTitleCase call hugohelper#TitleCase()$/;"	c
 HugoHelperTitleToSlug	plugin/hugohelper.vim	/^command! -nargs=0 HugoHelperTitleToSlug call hugohelper#TitleToSlug()$/;"	c
 HugoHelperUndraft	plugin/hugohelper.vim	/^command! -nargs=0 HugoHelperUndraft call hugohelper#Undraft()$/;"	c
+Hugogo	plugin/partial.vim	/^function! Hugogo()$/;"	f
 Hugotitletoslug	plugin/title_slug.vim	/^function! Hugotitletoslug()$/;"	f
 Hugotoslug	plugin/hugohelper.vim	/^command! -nargs=0 Hugotoslug call Hugotitletoslug()$/;"	c
 Installation	README.md	/^# Installation$/;"	c
