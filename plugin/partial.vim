@@ -9,6 +9,8 @@ function! Hugogo()
   let Hugofile=substitute(Hugofile,"}","","g")
   let Hugofile=substitute(Hugofile," ","","g")
   " echo Hugofile
+  exe "let dirNow=getcwd()"
   exe 'Cdg'
   exe 'e layouts/partials/'.Hugofile.'.html'
+  execute "cd ".dirNow
 endfun  

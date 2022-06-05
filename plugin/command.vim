@@ -1,5 +1,11 @@
-vmap ,b di**<Esc>pa**
-vmap ,i di*<Esc>pa*
-vmap ,u di_<Esc>pa_
-vmap ,u di_<Esc>pa_
-vmap ,c di`<Esc>pa`
+command! -nargs=0 Hs call Hugotitletoslug()
+command! -nargs=0 Hg call Hugotitletoslug()
+command! -nargs=0 HugoHelperSpellCheck call hugohelper#SpellCheck()
+command! -nargs=0 HugoHelperDraft call hugohelper#Draft()
+command! -nargs=0 HugoHelperUndraft call hugohelper#Undraft()
+command! -nargs=0 HugoHelperDateIsNow call hugohelper#DateIsNow()
+command! -nargs=0 HugoHelperLastmodIsNow call hugohelper#LastmodIsNow()
+command! -nargs=0 HugoHelperTitleToSlug call hugohelper#TitleToSlug()
+command! -nargs=0 HugoHelperTitleCase call hugohelper#TitleCase()
+command! -nargs=1 HugoHelperHighlight call hugohelper#Highlight(<f-args>)
+command! -range -nargs=1 HugoHelperLink call hugohelper#Link(<f-args>)

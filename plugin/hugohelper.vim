@@ -24,19 +24,6 @@ if !exists('g:hugohelper_site_config')
     let g:hugohelper_site_config = [ 'config.toml', 'config.yaml', 'config.json' ]
 endif
 
-
-
-command! -nargs=0 Hugotoslug call Hugotitletoslug()
-command! -nargs=0 HugoHelperSpellCheck call hugohelper#SpellCheck()
-command! -nargs=0 HugoHelperDraft call hugohelper#Draft()
-command! -nargs=0 HugoHelperUndraft call hugohelper#Undraft()
-command! -nargs=0 HugoHelperDateIsNow call hugohelper#DateIsNow()
-command! -nargs=0 HugoHelperLastmodIsNow call hugohelper#LastmodIsNow()
-command! -nargs=0 HugoHelperTitleToSlug call hugohelper#TitleToSlug()
-command! -nargs=0 HugoHelperTitleCase call hugohelper#TitleCase()
-command! -nargs=1 HugoHelperHighlight call hugohelper#Highlight(<f-args>)
-command! -range -nargs=1 HugoHelperLink call hugohelper#Link(<f-args>)
-
 function! HugoHelperFrontMatterReorder()
     exe 'g/^draft/m 1'
     exe 'g/^date/m 2'
