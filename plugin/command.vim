@@ -1,6 +1,6 @@
+command! -nargs=0 Hhelp exe 'e '.nvimplug.'/vim-plug/docs/home.md'
 command! -nargs=0 Hs call Hugotitletoslug()
 command! -nargs=0 Hg call Hugogo()
-command! -nargs=0 Hgf call Hugolinkgofile()
 command! -nargs=0 Hgb call Hugolinkgobrowser()
 command! -nargs=0 HugoHelperSpellCheck call hugohelper#SpellCheck()
 command! -nargs=0 HugoHelperDraft call hugohelper#Draft()

@@ -1,0 +1,4 @@
+- Hhelp
+- Hs : title to slug
+- Hg : go partial
+- Hgb : markdown go browser from slug and root folder

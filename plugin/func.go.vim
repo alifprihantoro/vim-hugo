@@ -1,16 +1,3 @@
-function Hugolinkgofile()
-  exe "let dirNow=getcwd()"
-  exe 'Cdg'
-  " get link
-  " e content/.link
-  execute "cd ".dirNow
-endfunction
-function Hugolinkgobrowser()
-  echo hai
-  " get link
-  " browse(use termux-api) link
-endfunction
-
 function Hugogobrowser()
   let hosthugo='http://localhost:1313/'
   exe '/slug.*'
